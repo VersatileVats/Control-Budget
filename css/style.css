@@ -1,0 +1,157 @@
+body {
+  margin-top: 100px;
+}
+
+.navbar {
+  height: 70px;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.carousel-inner h1 {
+  font-family: "Pacifico", cursive;
+}
+
+.carousel-inner .lead {
+  font-family: "Pacifico", cursive;
+}
+
+#test:hover {
+  color: white !important;
+}
+
+
+#showcase1 {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  height: 600px;
+} 
+
+#showcase1 .primary-overlay {
+  background: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 500px;
+  position: relative;
+}
+
+.carousel-img-1 {
+  background: url("../img/self.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-img-2 {
+  background: url("../img/pencil.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-img-3 {
+  background: url("../img/class.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+#video-play {
+  position: relative;
+  height: 200px;
+  background: url("../img/hand.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+.tooltip .tooltip-inner{
+  max-width:310px;
+  color:black;
+  text-align:center;
+  background-color:white;
+  border: inset;
+  border-radius:4px
+
+}
+
+#home-heading {
+  position: relative;
+  height: 200px;
+  background: url("../img/creativity.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  color: white;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.light-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#gallery img {
+  border-radius: 10px;
+  border: 2px solid orange;
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    height: 500px;
+  }
+  #showcase h1 {
+    font-size: 4rem;
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+
+  .margin-self {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .margin-self {
+    margin-top: 130px;
+  }
+
+  .nav-item:hover i {
+    color: white !important;
+  }
+}
