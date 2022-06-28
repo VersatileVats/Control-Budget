@@ -51,23 +51,6 @@
                                             title = "<p>Pwd must contain at least <b> one letter, one number, one special character </b> and must be of minimum 06 characters.</p>"
                                         ></i>
                                     </div> 
-                                    <input type="password" name="password" class="form-control" placeholder="Enter password (Min. 6 characters)" required>
-                                </div>
-                                <div class="form-group">
-                                    <div class="d-flex justify-content-between row-hl">
-                                        <label for="number">Phone Number</label>
-                                        <!-- Samll info tag to tell the user what exactly the phone_number must follow -->
-                                        <i 
-                                            id="tool"
-                                            class="fa fa-exclamation-circle"
-                                            data-toggle = "tooltip"
-                                            data-placement = "right"
-                                            data-html = "true"
-                                            title = "<p>Phone Number must have 10 digits and should start with <b> either 7,8,9 </b>. </p>"
-                                        ></i>
-                                    </div>
-                                    <input type="text" name="phone" class="form-control" placeholder="Enter Valid Phone Number" required>
-                                </div>
                                 <div class="form-group">
                                     <label for="question">Security Question</label>
                                     <select name="question" class="form-control">
