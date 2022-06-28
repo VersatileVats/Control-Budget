@@ -76,18 +76,6 @@ $result = mysqli_query($connect, $query) or die(mysqli_error($connect));
                                             &#8377; <?php echo $row['budget']; ?>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <p>Date</p>
-                                        </div>
-                                        <div class="col-sm-8 text-right">
-                                            <?php echo $row['start'] . " to " . $row['end']; ?>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="view.php?plan=<?php echo $row['p_id'] ?>" class="btn btn-outline-primary m-0" style="border:3px solid; border-radius: 8px;">View Plan</a>
-                            </div>
-                        </div>
                     <?php } ?>
                 </div>
             <?php
