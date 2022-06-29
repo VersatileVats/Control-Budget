@@ -66,21 +66,6 @@
                                         "<?php echo $row['question'] ?>"
                                     >
                                 </div>
-                                <div class="form-group">
-                                    <label for="answer">Answer</label>
-                                    <input type="text" name="answer" class="form-control" placeholder="Answer for your security question" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="password">New Password</label>
-                                    <input type="password" name = "new_pwd" class="form-control" placeholder="New password (Min. 6 characters)" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="password">Confirm New Password</label>
-                                    <input type="password" name="again_pwd" class="form-control" placeholder="Re-type New password" required>
-                                </div>
-                                <input type="submit" value="Proceed" class="btn btn-primary btn-block mb-5">
-                            </form>
-                        </div>
                     </div>
                 </div>
             </div>
