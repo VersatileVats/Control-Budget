@@ -98,31 +98,6 @@
       <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </a>
-      <a href="#myCarousel" class="carousel-control-next" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-  </section>
-
-  <!-- Boxes -->
-  <section class="p-4 m-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 text-center mb-2">
-          <div class="card" style="border-radius: 10%;">
-              <div class="card-header">
-                <i class="fas fa-users fa-3x" style="color: #05386B;"></i>
-              </div>
-              <div class="card-body">
-                <div class="card-title">
-                  <h3>Be Better</h3>
-                </div>
-                <p>
-                Move ahead from rest of the crowd by joining us and be
-                a part of the change
-                </p>
-              </div>
-            </div>
         </div>
         <div class="col-md-3 text-center mb-2">
           <div class="card" style="border-radius: 10%;">
